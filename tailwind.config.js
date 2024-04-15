@@ -39,10 +39,14 @@ export default {
         '128': '32rem',
       },
       fontFamily: { 
-        'jersey': ['"Jersey 10 Charted"', 'sans-serif'] 
+        'jersey': ['"Jersey 10 Charted"', 'sans-serif'],
+        'roboto': ['"Roboto Condensed"', 'sans-serif']
       } 
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ]
+
 }
 
